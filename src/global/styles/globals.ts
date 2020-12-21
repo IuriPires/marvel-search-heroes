@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     -webkit-font-smoothing: antialiazed;
+    padding: 24px;
   }
   html, body, #root {
     display: flex;
@@ -46,7 +47,7 @@ const GlobalStyle = createGlobalStyle`
   }
   @media (min-width: 720px) {
   html {
-    font-size: 70%;
+    font-size: 60%;
   }
 }
 `;
